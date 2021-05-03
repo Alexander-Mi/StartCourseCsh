@@ -18,7 +18,7 @@ namespace ex1
             Console.WriteLine("Введите Ваше имя");
             string name = Console.ReadLine();
 
-            Console.WriteLine("Введите Вашe фамилию");
+            Console.WriteLine("Введите Вашу фамилию");
             string surname = Console.ReadLine();
 
             Console.WriteLine("Введите Ваш рост, в метрах например 185,5");
