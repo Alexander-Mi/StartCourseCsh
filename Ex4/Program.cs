@@ -12,12 +12,12 @@ namespace Ex4
             // б) *без использования третьей переменной.
 
             Console.WriteLine("Введите a");
-            double a = Convert.ToInt32(Console.ReadLine());
+            double a = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Введите b");
-            double b = Convert.ToInt32(Console.ReadLine());
+            double b = Convert.ToDouble(Console.ReadLine());
 
-            int c = a;
+            double c = a;
             a = b;
             b = a;
 
